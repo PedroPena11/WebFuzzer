@@ -45,7 +45,7 @@ Como utilizamos características de Java 21, primero debemos compilar los archiv
 
 Una vez compilado, puedes lanzar la herramienta indicando la URL objetivo y tu diccionario de palabras:
 
-`java GemiFuzzer http://<url-objetivo> diccionario.txt`
+`java WebFuzzer http://<url-objetivo> diccionario.txt`
 
 ### 📂 Estructura del Proyecto
 
