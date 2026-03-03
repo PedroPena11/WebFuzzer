@@ -40,13 +40,13 @@ Primero, descarga el código fuente en tu computadora:
 
 Como utilizamos características de Java 21, primero debemos compilar los archivos fuente para generar el bytecode necesario:
 
-`javac *.java`
+`javac -d out src/*.java`
 
 3. #### Ejecución
 
 Una vez compilado, puedes lanzar la herramienta indicando la URL objetivo y tu diccionario de palabras:
 
-`java WebFuzzer http://<url-objetivo> diccionario.txt`
+`java -cp out WebFuzzer http://<url-objetivo> <ruta-al-diccionario.txt>`
 
 ### 📂 Estructura del Proyecto
 
