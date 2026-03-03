@@ -1,0 +1,38 @@
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+*.class
+bin/
+*.log
+common.txt
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+.DS_Store
+Thumbs.db
