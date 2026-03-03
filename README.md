@@ -50,7 +50,7 @@ Una vez compilado, puedes lanzar la herramienta indicando la URL objetivo y tu d
 
 ### 📂 Estructura del Proyecto
 
-* GemiFuzzer.java: Clase principal y orquestador del escaneo.
+* WebFuzzer.java: Clase principal y orquestador del escaneo.
 
 * MotorHttp.java: Encargado de la lógica de peticiones y headers.
 
